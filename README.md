@@ -1,3 +1,6 @@
+🎬 Sinema Bilet Sistemi - Konsol Uygulaması
+Java License Status
+
 📜 Proje Açıklaması
 Bu Java konsol uygulaması, bir sinema işletmesi için temel müşteri kaydı ve bilet işlemlerinin yapıldığı bir sistemdir. BIP1026 dersi kapsamında geliştirilmiştir.
 
@@ -34,7 +37,10 @@ Seçiminiz:
 📂 Dosya Yapısı
 sinema-bilet-sistemi/
 ├── Main.java
+├──Main.class
 
 📧 İletişim
 Yasin Balkan
 📧 yasin33balkan@gmail.com
+
+BIP1026 dersi | Teslim tarihi: 06.04.2025
