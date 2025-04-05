@@ -1,60 +1,103 @@
-🎬 Sinema Bilet Sistemi - Konsol Uygulaması
+# 🎬 Sinema Müşteri Kayıt Sistemi (Java Console Uygulaması)
 
-📌 Proje Açıklaması
-Bu Java konsol uygulaması, bir sinema işletmesi için temel müşteri kaydı ve bilet işlemlerinin yapıldığı bir sistemdir. BİPOS dersi kapsamında geliştirilmiştir.
+Bu Java konsol uygulaması, bir sinema işletmesi için temel **film tanımlama**, **müşteri kaydı** ve **bilet işlemleri** gibi işlevleri yerine getirmek üzere geliştirilmiştir. Kullanıcı dostu menüsü sayesinde, konsol üzerinden film ve müşteri bilgileri girilerek hızlıca bilet oluşturulabilir ve kayıtlar listelenebilir.
 
-🛠 Temel Özellikler
+---
 
-🎞️ Film Yönetimi: Film ekleme (maks. 10), listeleme
+## 📌 Proje Özeti
 
-🧾 Müşteri Yönetimi: Müşteri kaydı (maks. 20), listeleme
+Bu proje kapsamında geliştirilen sistemde:
 
-🎟️ Bilet İşlemleri: Bilet oluşturma, listeleme
+- 🎞️ **Film Tanımlama:** Film adı, süresi ve türü girilir. Maksimum 10 film desteklenir.  
+- 👤 **Müşteri Kaydı:** Müşteri adı ve e-posta bilgileri girilir. Maksimum 20 müşteri desteklenir.  
+- 🎟️ **Bilet Kaydı:** Müşteri ve film eşleştirilerek bilet oluşturulur.  
+- 📋 **Listeleme:** Mevcut bilet kayıtları müşteri bazında görüntülenebilir.
 
-🧑‍💻 Türkçe Karakter Desteği
+---
 
-🖥 Sistem Gereksinimleri
-Java JDK 17+
+## 🧩 Uygulama Özellikleri
 
-Windows/Linux/macOS
+- ✅ Konsol üzerinden etkileşimli menü  
+- ✅ Film & müşteri bilgilerini dizilerde saklama  
+- ✅ Müşteri-film eşleşmesini çift boyutlu dizi ile yönetme  
+- ✅ Kolay anlaşılır kullanıcı deneyimi  
 
-⚙️ Kurulum ve Çalıştırma
-1. Projeyi Klonlama
-git clone https://github.com/TimaYT/Nesneye-Dayal-Programlama
-cd Nesneye-Dayal-Programlama
-2. Derleme ve Çalıştırma
-Windows:
-javac -encoding UTF-8 Main.java
-java -Dfile.encoding=UTF-8 Main
-Linux/macOS:
-javac Main.java
-java Main
-3. Türkçe Karakter Desteği (Windows)
-chcp 1254
-java Main
+---
 
-📋 Kullanım Kılavuzu
-Ana Menü
-markdown
+## 📂 Dosya Yapısı
+
+📁 sinema-kayit-sistemi ┣ 📄 SinemaMusteriKayitSistemi.java ┗ 📄 README.md
+
+yaml
 Kopyala
 Düzenle
-== SİNEMA BİLET SİSTEMİ ==
-1. Film Ekleme  
-2. Film Listeleme  
-3. Müşteri İşlemleri  
-4. Bilet Oluşturma  
-5. Çıkış  
 
-Seçiminiz:
+---
 
-📁 Dosya Yapısı
+## ⚙️ Derleme ve Çalıştırma
 
-Nesneye-Dayalı-Programlama/
+### 1. Kodu klonlayın:
+```bash
+git clone https://github.com/kullanici-adi/sinema-kayit-sistemi.git
+cd sinema-kayit-sistemi
+2. Derleyin ve çalıştırın:
+bash
+Kopyala
+Düzenle
+javac SinemaMusteriKayitSistemi.java
+java SinemaMusteriKayitSistemi
+🖥️ Konsol Menüsü
+text
+Kopyala
+Düzenle
+1 - Film Ekle
+2 - Müşteri Ekle
+3 - Bilet Kaydı
+4 - Biletleri Listele
+5 - Çıkış
+🔐 Veri Yapıları
+Veri Türü	Değişken Adı	Açıklama
+String[]	filmAdi	Film adları
+int[]	filmSure	Film süreleri (dakika)
+String[]	filmTur	Film türleri
+String[]	musteriAdi	Müşteri adları
+String[]	musteriEmail	Müşteri e-posta adresleri
+String[][]	biletler	Müşteri-film eşleşme tablosu
+💡 Geliştirme Önerileri
+🔄 Film veya müşteri güncelleme/silme işlemleri
 
-├── Main.java  
-├── Film.java  
-└── Bilet.java  
-📫 İletişim Yasin Balkan
+💾 Dosya sistemi (I/O) kullanarak veri kaydı ve yükleme
 
-📧 yasin33balkan@gmail.com
+🖼️ Swing veya JavaFX ile GUI (Grafiksel Arayüz) geliştirme
+
+🆔 Bilet numarası ve tarih bilgisi eklenmesi
+
+📦 JSON/XML ile veri saklama desteği
+
+📅 Teslim Bilgisi
+Teslim Tarihi: 03.04.2025 - 23:59
+
+Teslim Yeri: GitHub üzerinden paylaşılacak ve OIS sistemine bağlantı eklenecek.
+
+Geliştirici: Emrah Sarıçiçek
+
+E-posta: emrah@example.com (örnektir)
+
+📜 Lisans
+Bu proje sadece eğitim amaçlı hazırlanmıştır ve herhangi bir ticari kullanım içermez.
+
+yaml
+Kopyala
+Düzenle
+
+---
+
+Bu dosyayı doğrudan `README.md` olarak projene eklemen yeterli.  
+Hazırsa bir `LICENSE` dosyası da ekleyebilirim veya istersen İngilizce sürümünü de oluşturabiliriz. Başka destek gerekirse her zaman buradayım! 💡🚀
+
+
+
+
+
+
 
