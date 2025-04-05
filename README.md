@@ -37,7 +37,6 @@ Seçiminiz:
 📂 Dosya Yapısı
 sinema-bilet-sistemi/
 ├── Main.java
-├──Main.class
 
 📧 İletişim
 Yasin Balkan
