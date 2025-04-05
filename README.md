@@ -26,11 +26,11 @@ Bu proje kapsamında geliştirilen sistemde:
 
 ## 📂 Dosya Yapısı
 
-📁 sinema-kayit-sistemi ┣ 📄 SinemaMusteriKayitSistemi.java ┗ 📄 README.md
-
-yaml
-Kopyala
-Düzenle
+```
+📁 sinema-kayit-sistemi
+ ┣ 📄 SinemaMusteriKayitSistemi.java
+ ┗ 📄 README.md
+```
 
 ---
 
@@ -40,64 +40,60 @@ Düzenle
 ```bash
 git clone https://github.com/kullanici-adi/sinema-kayit-sistemi.git
 cd sinema-kayit-sistemi
-2. Derleyin ve çalıştırın:
-bash
-Kopyala
-Düzenle
+```
+
+### 2. Derleyin ve çalıştırın:
+```bash
 javac SinemaMusteriKayitSistemi.java
 java SinemaMusteriKayitSistemi
-🖥️ Konsol Menüsü
-text
-Kopyala
-Düzenle
+```
+
+---
+
+## 🖥️ Konsol Menüsü
+
+```text
 1 - Film Ekle
 2 - Müşteri Ekle
 3 - Bilet Kaydı
 4 - Biletleri Listele
 5 - Çıkış
-🔐 Veri Yapıları
-Veri Türü	Değişken Adı	Açıklama
-String[]	filmAdi	Film adları
-int[]	filmSure	Film süreleri (dakika)
-String[]	filmTur	Film türleri
-String[]	musteriAdi	Müşteri adları
-String[]	musteriEmail	Müşteri e-posta adresleri
-String[][]	biletler	Müşteri-film eşleşme tablosu
-💡 Geliştirme Önerileri
-🔄 Film veya müşteri güncelleme/silme işlemleri
-
-💾 Dosya sistemi (I/O) kullanarak veri kaydı ve yükleme
-
-🖼️ Swing veya JavaFX ile GUI (Grafiksel Arayüz) geliştirme
-
-🆔 Bilet numarası ve tarih bilgisi eklenmesi
-
-📦 JSON/XML ile veri saklama desteği
-
-📅 Teslim Bilgisi
-Teslim Tarihi: 03.04.2025 - 23:59
-
-Teslim Yeri: GitHub üzerinden paylaşılacak ve OIS sistemine bağlantı eklenecek.
-
-Geliştirici: Emrah Sarıçiçek
-
-E-posta: emrah@example.com (örnektir)
-
-📜 Lisans
-Bu proje sadece eğitim amaçlı hazırlanmıştır ve herhangi bir ticari kullanım içermez.
-
-yaml
-Kopyala
-Düzenle
+```
 
 ---
 
-Bu dosyayı doğrudan `README.md` olarak projene eklemen yeterli.  
-Hazırsa bir `LICENSE` dosyası da ekleyebilirim veya istersen İngilizce sürümünü de oluşturabiliriz. Başka destek gerekirse her zaman buradayım! 💡🚀
+## 🔐 Veri Yapıları
 
+| Veri Türü     | Değişken Adı       | Açıklama                    |
+|---------------|--------------------|-----------------------------|
+| `String[]`    | `filmAdi`          | Film adları                 |
+| `int[]`       | `filmSure`         | Film süreleri (dakika)      |
+| `String[]`    | `filmTur`          | Film türleri                |
+| `String[]`    | `musteriAdi`       | Müşteri adları              |
+| `String[]`    | `musteriEmail`     | Müşteri e-posta adresleri   |
+| `String[][]`  | `biletler`         | Müşteri-film eşleşme tablosu|
 
+---
 
+## 💡 Geliştirme Önerileri
 
+- 🔄 Film veya müşteri güncelleme/silme işlemleri
+- 💾 Dosya sistemi (I/O) kullanarak veri kaydı ve yükleme
+- 🖼️ Swing veya JavaFX ile GUI (Grafiksel Arayüz) geliştirme
+- 🆔 Bilet numarası ve tarih bilgisi eklenmesi
+- 📦 JSON/XML ile veri saklama desteği
 
+---
 
+## 📅 Teslim Bilgisi
 
+- **Teslim Tarihi:** `03.04.2025 - 23:59`  
+- **Teslim Yeri:** GitHub üzerinden paylaşılacak ve OIS sistemine bağlantı eklenecek.  
+- **Geliştirici:** Emrah Sarıçiçek  
+- **E-posta:** emrah@example.com *(örnektir)*  
+
+---
+
+## 📜 Lisans
+
+Bu proje sadece eğitim amaçlı hazırlanmıştır ve herhangi bir ticari kullanım içermez.
