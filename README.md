@@ -14,7 +14,7 @@ Java JDK 17+
 Windows/Linux/macOS
 🚀 Kurulum ve Çalıştırma
 1. Projeyi Klonlama
-git clone https://github.com/kizilsamuray/sinema-bilet-sistemi.git
+git clone https://github.com/TimaYT/Nesneye-Dayal-Programlama
 cd sinema-bilet-sistemi
 2. Derleme ve Çalıştırma
 Windows:
