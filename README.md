@@ -87,13 +87,6 @@ java SinemaMusteriKayitSistemi
 
 ## 📅 Teslim Bilgisi
 
-- **Teslim Tarihi:** `03.04.2025 - 23:59`  
+- **Teslim Tarihi:** `06.04.2025 - 23:59`  
 - **Teslim Yeri:** GitHub üzerinden paylaşılacak ve OIS sistemine bağlantı eklenecek.  
-- **Geliştirici:** Emrah Sarıçiçek  
-- **E-posta:** emrah@example.com *(örnektir)*  
-
----
-
-## 📜 Lisans
-
-Bu proje sadece eğitim amaçlı hazırlanmıştır ve herhangi bir ticari kullanım içermez.
+- **Geliştirici:** Yasin Balkan 
